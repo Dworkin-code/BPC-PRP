@@ -1,0 +1,2 @@
+Invoking command in '/home/student/Desktop/ros_package/build/prp_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/Desktop/ros_package/build/prp_project -- -j4 -l4
+Invoked command in '/home/student/Desktop/ros_package/build/prp_project' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/Desktop/ros_package/build/prp_project -- -j4 -l4

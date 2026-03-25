@@ -1,0 +1,26 @@
+[31mCMake Error at CMakeLists.txt:25 (add_executable):
+  Cannot find source file:
+
+    include/RosExampleClass.h
+
+[0m
+[31mCMake Error at tests/CMakeLists.txt:9 (add_executable):
+  Cannot find source file:
+
+    include/RosExampleClass.h
+Call Stack (most recent call first):
+  tests/CMakeLists.txt:15 (make_units_test)
+
+[0m
+[31mCMake Error at CMakeLists.txt:25 (add_executable):
+  No SOURCES given to target: prp_project
+
+[0m
+[31mCMake Error at tests/CMakeLists.txt:9 (add_executable):
+  No SOURCES given to target: example
+Call Stack (most recent call first):
+  tests/CMakeLists.txt:15 (make_units_test)
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

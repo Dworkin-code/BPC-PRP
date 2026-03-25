@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target prp_project[0m
+[35m[1mConsolidate compiler generated dependencies of target example[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/prp_project.dir/src/main.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/prp_project.dir/src/example.cpp.o[0m
+[ 50%] [32mBuilding CXX object tests/CMakeFiles/example.dir/__/src/example.cpp.o[0m
+[ 66%] [32mBuilding CXX object tests/CMakeFiles/example.dir/t_example.cpp.o[0m
+[01m[K/home/student/Desktop/ros_package/src/example.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kexample.hpp: No such file or directory
+    1 | #include [01;31m[K"example.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/student/Desktop/ros_package/src/example.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kexample.hpp: No such file or directory
+    1 | #include [01;31m[K"example.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/prp_project.dir/build.make:90: CMakeFiles/prp_project.dir/src/example.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [tests/CMakeFiles/example.dir/build.make:90: tests/CMakeFiles/example.dir/__/src/example.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/student/Desktop/ros_package/tests/t_example.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample.hpp: No such file or directory
+    2 | #include [01;31m[K"example.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [tests/CMakeFiles/example.dir/build.make:76: tests/CMakeFiles/example.dir/t_example.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:180: tests/CMakeFiles/example.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/student/Desktop/ros_package/src/main.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KRosExampleClass.h: No such file or directory
+    2 | #include [01;31m[K"RosExampleClass.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/prp_project.dir/build.make:76: CMakeFiles/prp_project.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:154: CMakeFiles/prp_project.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
