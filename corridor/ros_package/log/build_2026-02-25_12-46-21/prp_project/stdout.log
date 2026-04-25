@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target prp_project[0m
+[35m[1mConsolidate compiler generated dependencies of target example[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/prp_project.dir/src/main.cpp.o[0m
+[ 66%] Built target example

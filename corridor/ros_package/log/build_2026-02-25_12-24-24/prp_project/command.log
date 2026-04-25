@@ -1,0 +1,6 @@
+Invoking command in '/home/student/Desktop/ros_package/build/prp_project': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/student/Desktop/ros_package -DCMAKE_INSTALL_PREFIX=/home/student/Desktop/ros_package/install/prp_project
+Invoked command in '/home/student/Desktop/ros_package/build/prp_project' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/student/Desktop/ros_package -DCMAKE_INSTALL_PREFIX=/home/student/Desktop/ros_package/install/prp_project
+Invoking command in '/home/student/Desktop/ros_package/build/prp_project': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/Desktop/ros_package/build/prp_project -- -j4 -l4
+Invoked command in '/home/student/Desktop/ros_package/build/prp_project' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/student/Desktop/ros_package/build/prp_project -- -j4 -l4
+Invoking command in '/home/student/Desktop/ros_package/build/prp_project': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student/Desktop/ros_package/build/prp_project
+Invoked command in '/home/student/Desktop/ros_package/build/prp_project' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/student/Desktop/ros_package/build/prp_project

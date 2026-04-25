@@ -1,0 +1,9 @@
+[01m[K/home/student/Desktop/ros_package/src/main.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KRosExampleClass.h: No such file or directory
+    2 | #include [01;31m[K"RosExampleClass.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/prp_project.dir/build.make:76: CMakeFiles/prp_project.dir/src/main.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:154: CMakeFiles/prp_project.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,34 @@
+[0.009s] Invoking command in '/home/student/Desktop/ros_package/build/prp_project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/Desktop/ros_package/build/prp_project -- -j4 -l4
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target prp_project[0m
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target example[0m
+[0.066s] [ 16%] [32mBuilding CXX object CMakeFiles/prp_project.dir/src/main.cpp.o[0m
+[0.066s] [ 33%] [32mBuilding CXX object CMakeFiles/prp_project.dir/src/example.cpp.o[0m
+[0.072s] [ 50%] [32mBuilding CXX object tests/CMakeFiles/example.dir/__/src/example.cpp.o[0m
+[0.073s] [ 66%] [32mBuilding CXX object tests/CMakeFiles/example.dir/t_example.cpp.o[0m
+[0.080s] [01m[K/home/student/Desktop/ros_package/src/example.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kexample.hpp: No such file or directory
+[0.080s]     1 | #include [01;31m[K"example.hpp"[m[K
+[0.080s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[0.080s] [01m[K/home/student/Desktop/ros_package/src/example.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kexample.hpp: No such file or directory
+[0.080s]     1 | #include [01;31m[K"example.hpp"[m[K
+[0.080s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[0.081s] compilation terminated.
+[0.081s] compilation terminated.
+[0.081s] gmake[2]: *** [CMakeFiles/prp_project.dir/build.make:90: CMakeFiles/prp_project.dir/src/example.cpp.o] Error 1
+[0.081s] gmake[2]: *** Waiting for unfinished jobs....
+[0.081s] gmake[2]: *** [tests/CMakeFiles/example.dir/build.make:90: tests/CMakeFiles/example.dir/__/src/example.cpp.o] Error 1
+[0.082s] gmake[2]: *** Waiting for unfinished jobs....
+[0.347s] [01m[K/home/student/Desktop/ros_package/tests/t_example.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample.hpp: No such file or directory
+[0.347s]     2 | #include [01;31m[K"example.hpp"[m[K
+[0.347s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[0.348s] compilation terminated.
+[0.350s] gmake[2]: *** [tests/CMakeFiles/example.dir/build.make:76: tests/CMakeFiles/example.dir/t_example.cpp.o] Error 1
+[0.350s] gmake[1]: *** [CMakeFiles/Makefile2:180: tests/CMakeFiles/example.dir/all] Error 2
+[0.350s] gmake[1]: *** Waiting for unfinished jobs....
+[0.592s] [01m[K/home/student/Desktop/ros_package/src/main.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KRosExampleClass.h: No such file or directory
+[0.593s]     2 | #include [01;31m[K"RosExampleClass.h"[m[K
+[0.593s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.593s] compilation terminated.
+[0.602s] gmake[2]: *** [CMakeFiles/prp_project.dir/build.make:76: CMakeFiles/prp_project.dir/src/main.cpp.o] Error 1
+[0.604s] gmake[1]: *** [CMakeFiles/Makefile2:154: CMakeFiles/prp_project.dir/all] Error 2
+[0.605s] gmake: *** [Makefile:146: all] Error 2
+[0.615s] Invoked command in '/home/student/Desktop/ros_package/build/prp_project' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/student/Desktop/ros_package/build/prp_project -- -j4 -l4
