@@ -134,7 +134,7 @@ private:
     // ======== Tuning constants =============================================
     // ---- Thresholds (metres) ----
     static constexpr float STOP_THRESHOLD   = 0.25f;
-    static constexpr float OPEN_THRESHOLD   = 0.50f;
+    static constexpr float OPEN_THRESHOLD   = 0.40f;
     static constexpr float VALID_MIN        = 0.08f;
     // ---- Heading reference update ----
     static constexpr float HEADING_UPDATE_THRESHOLD = 0.05f;
